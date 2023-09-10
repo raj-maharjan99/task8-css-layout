@@ -44,6 +44,15 @@ function Section() {
           </li>
         </ul>
       </nav>
+
+      <article>
+        <h1>चितवन मा घर छ एक सिङ्गे गैंडा को डर छ </h1>
+        <img
+          className={styles.rhino}
+          src="https://risingnepaldaily.com/storage/media/12080/rhino.jpg"
+          alt="rhino in sauraha"
+        />
+      </article>
     </>
   );
 }

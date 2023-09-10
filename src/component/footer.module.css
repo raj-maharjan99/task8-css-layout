@@ -1,8 +1,8 @@
 .footer {
   background-color: rgb(229, 222, 216);
-  border: 2px dotted rgba(255, 0, 0, 0.47);
-  height: 5rem;
-  color: rgb(8, 4, 20);
+  border: 2px dotted rgba(18, 14, 14, 0.47);
+  height: 3rem;
+  color: rgba(8, 4, 20, 0.315);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
   font-style: italic;

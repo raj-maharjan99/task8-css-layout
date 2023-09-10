@@ -1,17 +1,16 @@
 nav {
   float: left;
   width: 10%;
-  height: calc(100vh - 160px); /* only for demonstration, should be removed */
+  height: calc(100vh - 162px);
   background: #ccc;
-  padding: 50px;
-  margin-top: 81px;
+  padding: 30px;
+  margin-top: 75px;
   display: flex;
   justify-content: center;
   position: fixed;
   padding-top: 4px;
 }
 
-/* Style the list inside the menu */
 nav li {
   list-style-type: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,4 +18,19 @@ nav li {
 }
 a {
   text-decoration: none;
+}
+article {
+  float: left;
+  padding-top: 5rem;
+  padding-left: 22rem;
+  color: rgba(17, 14, 14, 0.217);
+  font-family: fantasy;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.rhino {
+  border: 2px solid red;
+  border-style: groove;
+  border-radius: 20rem;
 }
