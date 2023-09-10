@@ -1,13 +1,13 @@
 import styles from "./app.module.css";
 import Header from "./header/header";
-// import Section from "./component/section";
+import Section from "./component/section";
 import Footer from "./component/footer";
 
 function App() {
   return (
     <>
       <Header />
-      {/* <Section /> */}
+      <Section />
       <Footer />
     </>
   );
