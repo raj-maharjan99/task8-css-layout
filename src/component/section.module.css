@@ -1,0 +1,22 @@
+nav {
+  float: left;
+  width: 10%;
+  height: calc(100vh - 160px); /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 50px;
+  margin-top: 81px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  padding-top: 4px;
+}
+
+/* Style the list inside the menu */
+nav li {
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+}
+a {
+  text-decoration: none;
+}
