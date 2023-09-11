@@ -77,7 +77,7 @@
   color: green;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #13030d);
+  filter: drop-shadow(0 0 5em rgb(190, 6, 150));
 }
 /* this is use to create shadow when mouse hover put on the link  */
 /* .logo:hover {
