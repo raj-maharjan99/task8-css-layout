@@ -55,7 +55,7 @@
 }
 
 .box4 {
-  background-color: rgb(167, 173, 137);
+  background-color: rgba(218, 235, 160, 0.521);
 
   width: 20rem;
   height: calc(100vh - 180px);
@@ -76,3 +76,10 @@
 .box4 ul li a {
   color: green;
 }
+.logo:hover {
+  filter: drop-shadow(0 0 2em #13030d);
+}
+/* this is use to create shadow when mouse hover put on the link  */
+/* .logo:hover {
+  filter: drop-shadow(0 0 2em #df058baa);
+} */

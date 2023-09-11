@@ -4,10 +4,13 @@ function Section() {
   return (
     <div className={styles.container}>
       <div className={styles.box1}>
-        <img
-          src="https://i2.wp.com/www.mythoworld.com/wp-content/uploads/2021/03/46064645912_99ff7bccf8_o-e1615663566679.png?fit=1000%2C750&ssl=1"
-          alt="shivaji"
-        />
+        <a href="https://react.dev" target="_blank">
+          <img
+            src="https://i2.wp.com/www.mythoworld.com/wp-content/uploads/2021/03/46064645912_99ff7bccf8_o-e1615663566679.png?fit=1000%2C750&ssl=1"
+            className={styles.logo}
+            alt="shivaji"
+          />
+        </a>
         <img src="https://i.pinimg.com/originals/ff/4a/65/ff4a657161e52ab60240fa655e9db5d6.jpg" />
       </div>
 
@@ -34,6 +37,7 @@ function Section() {
           <li>
             <a
               href="https://www.bluemountain.com/ecards/birthday"
+              className={styles.logo}
               target="_blank"
             >
               BIRTHDAY
