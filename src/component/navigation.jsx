@@ -1,9 +1,12 @@
-import styles from "./section.module.css";
+import styles from "./navigation.module.css";
 
 function Section() {
   return (
-    <>
-      <nav>
+    <div className={styles.container}>
+      <div className={styles.box1}></div>
+      <div className={styles.box2}></div>
+      <div className={styles.box3}></div>
+      <div className={styles.box4}>
         <ul>
           <li>
             <a href="#">HOME</a>
@@ -31,29 +34,10 @@ function Section() {
           </li>
           <li>
             <a href="#">BHANDARA</a>
-          </li>
-          <li>
-            <a href="#">BHANDARA</a>
-          </li>
-          <li>
-            <a href="#">GALLERY</a>
-          </li>
-
-          <li>
-            <a href="#">CONTACT</a>
-          </li>
+          </li>{" "}
         </ul>
-      </nav>
-
-      <article>
-        <h1>चितवन मा घर छ एक सिङ्गे गैंडा को डर छ </h1>
-        <img
-          className={styles.rhino}
-          src="https://risingnepaldaily.com/storage/media/12080/rhino.jpg"
-          alt="rhino in sauraha"
-        />
-      </article>
-    </>
+      </div>
+    </div>
   );
 }
 

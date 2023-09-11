@@ -1,28 +1,25 @@
 .header {
-  background-color: #f5f5f5;
-  color: rgba(37, 6, 6, 0.881);
+  background-color: #42670654;
+  color: rgb(199, 26, 26);
   height: 81px;
   padding: 0px;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: grid;
   width: 100%;
+
   text-align: center;
-  gap: 10rem;
+  gap: 3rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border: 2px solid rgba(255, 0, 0, 0.1);
+  font-size: 25px;
 }
+
 .image {
-  height: 3rem;
-  width: 3rem;
-  border: 1 solid brown;
-  border-radius: 50px;
-}
-.image1 {
-  height: 55px;
-  width: 55px;
-  border: 1 solid brown;
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid rgb(22, 4, 4);
   border-radius: 50px;
 }
