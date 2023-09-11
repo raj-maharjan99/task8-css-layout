@@ -3,9 +3,31 @@ import styles from "./navigation.module.css";
 function Section() {
   return (
     <div className={styles.container}>
-      <div className={styles.box1}></div>
-      <div className={styles.box2}></div>
-      <div className={styles.box3}></div>
+      <div className={styles.box1}>
+        <img
+          src="https://i2.wp.com/www.mythoworld.com/wp-content/uploads/2021/03/46064645912_99ff7bccf8_o-e1615663566679.png?fit=1000%2C750&ssl=1"
+          alt="shivaji"
+        />
+        <img src="https://i.pinimg.com/originals/ff/4a/65/ff4a657161e52ab60240fa655e9db5d6.jpg" />
+      </div>
+
+      <div className={styles.box2}>
+        <img
+          src="https://media.post.rvohealth.io/wp-content/uploads/sites/4/2022/01/couple-silhouette-sunset-holding-hands-walking-grass-1296x728-header-1024x575.jpg"
+          alt="love"
+        />
+        <img src="https://static.toiimg.com/photo/100963164.cms" alt="Rhino" />
+      </div>
+      <div className={styles.box3}>
+        <img
+          src="https://i.natgeofe.com/n/05ecc07c-c0e3-4d94-9e32-93ba1e9110ed/white-tailed-deer_thumb_4x3.JPG"
+          alt="deer"
+        />
+        <img
+          src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/ohio-birds/EasternBluebirdPair.jpg?crop=0%2C0%2C3000%2C1650&wid=4000&hei=2200&scl=0.75"
+          alt="bird"
+        />
+      </div>
       <div className={styles.box4}>
         <ul>
           <h2>TYPES OF ECARDS</h2>
@@ -66,7 +88,7 @@ function Section() {
             </a>
           </li>
           <li>
-            <a href="rjuallone@gmail.com">
+            <a href="#">
               <b>CONTACT</b>
             </a>
           </li>
