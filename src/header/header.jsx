@@ -6,16 +6,11 @@ function Header() {
       <div className={styles.header}>
         <img
           className={styles.image}
-          src="https://static.vecteezy.com/system/resources/thumbnails/006/423/232/small/rhino-head-icon-logo-in-a-circle-for-company-community-and-more-free-vector.jpg"
-          alt="Logo"
+          src="https://w7.pngwing.com/pngs/193/452/png-transparent-lord-ganesh-thumbnail.png"
+          alt="ganesh Logo"
         />
 
-        <h1>HAMRO CHITWAN RAMRO CHITWAN</h1>
-        <img
-          className={styles.image1}
-          src="https://i.pinimg.com/564x/9f/b4/aa/9fb4aa6b740cc3280285021f77d92f91.jpg"
-          alt="Logo"
-        />
+        <h1>"हजुर को ध्यान कता चितवन कार्ड कलेक्सन यता"</h1>
       </div>
     </>
   );
