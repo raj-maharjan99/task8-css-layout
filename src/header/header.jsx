@@ -10,7 +10,7 @@ function Header() {
           alt="ganesh Logo"
         />
 
-        <h1>JAY GANESH</h1>
+        <h1>"हजुर को ध्यान कता चितवन कार्ड कलेक्सन यता"</h1>
       </div>
     </>
   );
