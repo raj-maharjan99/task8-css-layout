@@ -1,15 +1,13 @@
 .footer {
-  background-color: rgba(232, 60, 66, 0.438);
+  background-color: rgb(195, 167, 168);
   border: 2px dotted rgba(18, 14, 14, 0.47);
-  height: 5rem;
+  height: 3rem;
   color: rgba(8, 4, 20, 0.315);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
   font-style: italic;
   font-size: 25px;
-
-  display: grid;
-  background-repeat: repeat;
+  text-align: center;
   justify-content: center;
   place-items: center;
   position: fixed;
