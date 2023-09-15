@@ -21,8 +21,11 @@ function Header() {
           alt="ganesh Logo"
         />
 
-        <marquee behavior="alternet" direction="left">
-          <h1>"हजुर को ध्यान कता चितवन कार्ड कलेक्सन यता"</h1>
+        <marquee className={styles.marq} behavior="alternet" direction="left">
+          <h1>
+            "In the end, we will remember not the words of our enemies, but the
+            silence of our friends." - Martin Luther King Jr."
+          </h1>
         </marquee>
       </div>
     </>
